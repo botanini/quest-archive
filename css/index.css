@@ -1,19 +1,138 @@
-#showcase {
-    display: flex;
-    gap: 20px;
-    justify-content: space-around;
-    margin-top: 40px;
-  }
-  
-  .showcase-item {
-    flex: 1;
-    text-align: center;
-  }
-  
-  #lead img {
-    width: 100%;
-    height: auto;
-    max-height: 400px;
-    object-fit: cover;
-  }
-  
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Georgia', serif;
+  background-color: #f5f1e8;
+  color: #2d1f1a;
+  line-height: 1.6;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header Navigation */
+header {
+  background-color: #1a120e;
+  padding: 10px 0;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+header nav li {
+  margin: 0 10px;
+}
+
+header nav a {
+  color: #f9f3e5;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+header nav a:hover {
+  color: #d6ae7b;
+}
+
+/* Lead Section */
+.lead {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.lead h1 {
+  font-size: 2.5rem;
+  color: #4b2c20;
+  margin: 20px 0 10px;
+}
+
+.lead h2 {
+  font-size: 1.5rem;
+  color: #6e4439;
+  margin-bottom: 20px;
+}
+
+.intro-text {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  color: #3a2a24;
+}
+
+/* Showcase Section */
+.showcase {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.showcase-item {
+  background-color: #fff;
+  border: 2px solid #e0d4c3;
+  border-radius: 10px;
+  padding: 20px;
+  flex: 1 1 30%;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.showcase-item:hover {
+  transform: translateY(-5px);
+}
+
+.showcase-item img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.showcase-item h3 {
+  color: #4b2c20;
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+}
+
+.showcase-item p {
+  font-size: 1rem;
+  color: #3a2a24;
+  margin-bottom: 10px;
+}
+
+/* Optional Buttons */
+.button {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #4b2c20;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: #6e4439;
+}
+
+/* Footer */
+footer {
+  background-color: #1a120e;
+  color: #f9f3e5;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 60px;
+}
