@@ -10,6 +10,7 @@ body {
   background-color: #000000;
   color: #cbe1ff;
   line-height: 1.6;
+  font-size: 20px;
 }
 
 .wrapper {
@@ -161,3 +162,8 @@ article {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+a{
+  color: #8475f2;
+  text-decoration: none;
+  font-weight: bold;
+}
