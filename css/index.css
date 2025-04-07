@@ -6,9 +6,9 @@
 }
 
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: #f0f0f0;
-  color: #2d1f1a;
+  font-family: Consolas, "Courier New", monospace;
+  background-color: #000000;
+  color: #cbe1ff;
   line-height: 1.6;
 }
 
@@ -20,26 +20,19 @@ body {
 
 /* Header Navigation */
 header {
-  background-color: #2B3747;
+  background-color: #466288;
   padding: 10px 0;
-}
-
-header nav ul {
-  list-style: none;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
 }
 
 header nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 10px;
 }
 
 header nav ul {
   display: flex;
-  justify-content: flex-end;
   list-style: none;
   margin: 30px;
   padding: 0px;
@@ -48,17 +41,22 @@ header nav ul {
 
 header nav li {
   margin: 0 10px;
+  padding-right: 30px;
 }
 
 header nav a {
-  color: #f9eae5;
+  color: #cbe1ff;
   text-decoration: none;
   font-weight: bold;
   font-size: 1rem;
 }
 
 header nav a:hover {
-  color: #81f0ff;
+  color: #8475f2;
+}
+header nav img {
+  height: 100px;
+  padding-left: 60px;
 }
 
 /* Lead Section */
@@ -69,21 +67,23 @@ header nav a:hover {
 
 .lead h1 {
   font-size: 2.5rem;
-  color: #21204b;
+  color: #8475f2;
   margin: 20px 0 10px;
+  ;
 }
 
 .lead h2 {
   font-size: 1.5rem;
-  color: #39426e;
+  color: #4e4cb4;
   margin-bottom: 20px;
+  font-style: italic;
 }
 
 .intro-text {
   max-width: 800px;
   margin: 0 auto;
   font-size: 1.1rem;
-  color: #24243a;
+  color: #57578c;
 }
 
 /* Showcase Section */
@@ -96,13 +96,13 @@ header nav a:hover {
 }
 
 .showcase-item {
-  background-color: #fff;
-  border: 3px solid #2B3747;
+  background-color: #8475f2;
+  border: 3px solid #2b3747;
   border-radius: 10px;
   padding: 20px;
   flex: 1 1 30%;
   text-align: center;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 6px rgba(79, 46, 99, 0.548);
   transition: transform 0.2s ease;
 }
 
@@ -145,9 +145,19 @@ header nav a:hover {
 
 /* Footer */
 footer {
-  background-color: #2B3747;
-  color: #f9f3e5;
+  background-color: #466288;
+  color: #cbe1ff;
   text-align: center;
   padding: 20px 0;
   margin-top: 60px;
 }
+
+/* Article Section */
+article {
+  margin: 50px 0;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10prgba(204, 204, 204, 0.342);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
