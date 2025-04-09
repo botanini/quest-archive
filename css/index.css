@@ -49,7 +49,7 @@ header nav a {
   color: #cbe1ff;
   text-decoration: none;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 20px;
 }
 
 header nav a:hover {
@@ -67,14 +67,14 @@ header nav img {
 }
 
 .lead h1 {
-  font-size: 2.5rem;
+  font-size: 70px;
   color: #8475f2;
   margin: 20px 0 10px;
   ;
 }
 
 .lead h2 {
-  font-size: 1.5rem;
+  font-size: 30px;
   color: #4e4cb4;
   margin-bottom: 20px;
   font-style: italic;
@@ -120,7 +120,7 @@ header nav img {
 .showcase-item h3 {
   color: #20214b;
   margin-bottom: 10px;
-  font-size: 1.3rem;
+  font-size: 20px;
 }
 
 .showcase-item p {
