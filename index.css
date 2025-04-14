@@ -414,3 +414,32 @@ a {
 .review a:hover {
   color: #f99157;
 }
+
+.gallery figure {
+  position: relative;
+  margin: 0;
+  text-align: center;
+}
+
+.gallery figcaption {
+  position: absolute;
+  bottom: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.75);
+  color: #ffd866;
+  font-size: 14px;
+  padding: 4px 10px;
+  border-radius: 5px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.gallery figure:hover figcaption {
+  opacity: 1;
+}
+
+.gallery figure:hover figcaption::before {
+  content: attr(data-caption);
+}
