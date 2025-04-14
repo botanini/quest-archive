@@ -365,3 +365,52 @@ a {
   margin: 0 auto;
   line-height: 32px;
 }
+
+/* === REVIEWS PAGE STYLES === */
+
+.review {
+  background-color: #1e1e2f;
+  color: #cbe1ff;
+  margin: 40px 0;
+  padding: 30px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(79, 46, 99, 0.4);
+}
+
+.review h2 {
+  font-size: 28px;
+  color: #ffd866;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.review img {
+  display: block;
+  margin: 0 auto 10px auto;
+  max-width: 100%;
+  border-radius: 10px;
+  border: 3px solid #8475f2;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.image-caption {
+  text-align: center;
+  font-size: 14px;
+  color: #aaa;
+  margin-bottom: 20px;
+}
+
+.review p {
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 15px;
+  color: #e6ebff;
+}
+
+.review a {
+  color: #ffd866;
+}
+
+.review a:hover {
+  color: #f99157;
+}
