@@ -443,3 +443,11 @@ a {
 .gallery figure:hover figcaption::before {
   content: attr(data-caption);
 }
+
+h1{
+  font-size: 50px;
+  color: #8475f2;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 30px;
+}
